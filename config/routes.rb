@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # the :name param becomes options
   get "say/hello(/:name)" => "displays#say"
   get "times" => "displays#times"
-  get "times/resey=t" => "displays#reset"
+  get "times/reset" => "displays#reset"
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
